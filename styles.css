@@ -1,0 +1,47 @@
+h1{
+    text-align: center;
+    
+}
+
+.Img-container {
+  max-width: 500px;
+  position: relative;
+  margin: auto;
+  margin-top: 50px;
+}
+img{
+    width: 100%;
+    height: auto;
+  }
+  
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  border-radius: 100%;
+  background-color: black;
+  transform: translateY(-50%);
+  
+}
+.next {
+  right: -70px;
+  border-radius: 100%;
+   
+}
+.prev{
+    left:-70px;
+} 
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+  
+
+
